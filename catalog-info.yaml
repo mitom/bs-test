@@ -4,7 +4,7 @@ metadata:
   name: example-project
   description: The place to be, for great artists
 spec:
-  type: website
+  type: service
   lifecycle: production
-  owner: artist-relations-team
+  owner: team-a
   system: artist-engagement-portal
