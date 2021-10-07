@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: example-project
   description: The place to be, for great artists
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=hello-world'
 spec:
   type: service
   lifecycle: production
